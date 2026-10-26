@@ -1,0 +1,26 @@
+# --- Game data: NEVER commit ---
+*.iso
+*.bin
+*.img
+*.mdf
+*.cue
+
+# Extracted disc contents and intermediate files
+work/
+
+# Rebuilt ISOs and other build output
+build/
+
+# Leftover macOS app bundle (empty, not used)
+MultiPatch.app/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editor junk
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
