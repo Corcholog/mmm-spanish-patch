@@ -17,7 +17,7 @@ Follow `docs/TRANSLATION_WORKFLOW.md`. Two forms:
 1. **Batch:** `python -I -X utf8 tools/batch.py next <script> --size <size>`. Note the `.md` and `.tsv` paths. If nothing is left, tell the user and stop.
 2. **Translate:** launch the `mmm-translator` agent with the batch `.md` and `.tsv` paths. Wait for it.
 3. **Verify:** `python -I -X utf8 tools/batch.py check <tsv>`. If it has errors, send them back to the translator agent (continue the same agent) and repeat; don't fix them yourself unless trivial.
-4. **Review:** launch the `mmm-reviewer` agent with the batch `.md` and `.tsv` paths. Wait for it. Then `python -I -X utf8 tools/batch.py check <batch>_reviewed.tsv` (0 errors required).
+4. **Review:** launch the `mmm-reviewer` agent with the batch `.md` and `.tsv` paths. Wait for it. Then `python -I -X utf8 tools/batch.py check <batch>_reviewed.tsv` (0 errors required): if it reports errors, send them back to the reviewer agent (continue the same agent) and repeat; don't fix them yourself unless trivial.
 5. **Apply:** `python -I -X utf8 tools/batch.py apply <batch>_reviewed.tsv` (plain `apply`: fresh entries need no `--force`). Copy the review report to `translation/reviews/`. Then `python -I -X utf8 tools/check.py` (must be 0 errors) and `python -I -X utf8 tools/batch.py status`.
 6. **Story bible:** append the reviewer's final **story notes** to `docs/STORY.md` ("Scenes so far", plus any new facts in the other sections); keep the file under ~300 lines (condense old scenes). Facts from the text only.
 7. **Record:** add a line to `docs/LOG.md` (date, batch range, entries, notes left, notable review findings). Glossary proposals go to the user; edit `docs/STYLE_GUIDE.md` only with the user's OK.

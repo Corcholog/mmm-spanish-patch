@@ -46,6 +46,8 @@ def safety(files):
     problems = []
     for f in files:
         path = os.path.join(ROOT, f)
+        if os.path.basename(f).startswith('.env'):
+            problems.append(f'{f}: secrets file')
         if f.lower().endswith(DENY_EXT):
             problems.append(f'{f}: extension not allowed')
         if os.path.getsize(path) > MAX_BYTES:

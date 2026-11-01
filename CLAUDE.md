@@ -27,7 +27,7 @@ The user wants everything documented, both as memory for Claude and as a learnin
 - Translate from the **Japanese** script, using the English patch only as a reference for meaning.
 - **Claude drafts** the Spanish; the **user reviews**.
 - Variety: **neutral Latin American Spanish** (see style guide).
-- Local git repo; no remote yet.
+- The working repo stays local (it holds `translation/` with the Japanese text). A **public copy** (tools, docs, agents; no translation, no game data) lives at https://github.com/Corcholog/mmm-spanish-patch and is updated with `python -I -X utf8 tools/export_public.py --push --gh-id 133365876 -m "..."` (clone in `work/public_repo`; safety checks inside). Run it only when the user asks; never push the working repo itself.
 
 ## Layout
 | Path | Contents | Tracked |

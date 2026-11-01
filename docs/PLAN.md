@@ -2,7 +2,7 @@
 
 Status legend: `[x]` done · `[~]` in progress · `[ ]` not started · `[-]` dropped / not needed
 
-**Current phase:** 5 — Full translation (workflow running: O0 translated 100% on 2026-10-26, 5,935 of 33,133 entries; card names, executable strings and branch joins checked in game 2026-10-25; O1 scouted, scoreboard checked in game; O0 and O1 translated 100% (12,537 of 33,135 = 37.8%); next: full-ISO memory check for O1, then scout O2; screens are checked by code with tools/screens.py). Open in parallel: menus/system strings, our own font, `bps_create.py`.
+**Current phase:** 5 — Full translation (workflow running: O0 translated 100% on 2026-10-26, 5,935 of 33,133 entries; card names, executable strings and branch joins checked in game 2026-10-25; O1 scouted, scoreboard checked in game; O0, O1 and O2 translated 100% (17,250 of 33,135 = 52.1%, O2 finished 2026-11-01, drafted by DeepSeek V4 Pro with Claude review, not yet committed); next: scout O3; screens are checked by code with tools/screens.py). Open in parallel: menus/system strings, our own font, `bps_create.py`.
 
 ---
 

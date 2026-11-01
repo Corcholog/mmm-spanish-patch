@@ -14,14 +14,15 @@ Inspired by the English patch: <https://github.com/pwnkyderedere/mmm-english-pat
 - [docs/LOG.md](docs/LOG.md): dated decisions and session history
 - [docs/scouting/](docs/scouting): read-ahead notes per script file
 
-## Status (2026-10-26)
+## Status (2026-11-01)
 
 | Script file | Entries | Translated |
 |---|---|---|
 | O0 (prologue and first days) | 5,939 | 100% |
 | O1 (training, the contest, the festival routes) | 6,598 | 100% |
-| O2 – O7 | 16,598 | 0% |
-| **Total** | **33,135** | **37.8%** |
+| O2 (Hitoe, Tae, the Repliss and Kyohei) | 4,713 | 100% |
+| O3 – O7 | 11,885 | 0% |
+| **Total** | **33,135** | **52.1%** |
 
 Menus and system strings in the executable are still to do. In-game checks so far are done by the project owner in PCSX2; everything that was tested works (text, accents, own font, card names, menus, big-text screens).
 
@@ -62,6 +63,7 @@ Main tools (`tools/`, run with `python -I -X utf8 tools/<name>.py` from the proj
 | `exe_patch.py`, `font_build.py` | Executable patches (heap, symbol list, font cells, card names) and the own font |
 | `build.py` | Builds the ISO; `--start O1:2990` makes a **debug ISO** that starts a new game at any line |
 | `savestate.py` | Refreshes a PCSX2 save state with the current text (debug) |
+| `llm_batch.py` | Optional translator step through an LLM API (OpenCode: DeepSeek etc.), same checks and loop; the key comes from `OPENCODE_GO_API_KEY`, never from the repo |
 | `check.py`, `batch.py` | Lint and the batch tool (`next`, `prefill`, `check`, `apply`, `status`) |
 | `test_pipeline.py` | Round-trip tests: rebuilding with no translation gives byte-identical files; no non-text word ever changes |
 | `export_public.py` | Builds and publishes this public copy: only tracked files, minus `translation/`, with safety checks and a no-reply author |
@@ -113,7 +115,7 @@ Requirements to run the tools: Python 3.12+, Pillow (for the font), your own leg
 
 ## Next steps
 
-1. Scout and translate O2 – O7 (about 17,000 entries), then the menus and system strings in the executable.
+1. Scout and translate O3 – O7 (about 11,900 entries), then the menus and system strings in the executable.
 2. Decide the songs and staff credits (translate or leave).
 3. `bps_create.py` and the first release of a `.bps` with a README and credits.
 4. Full playthrough QA in PCSX2.

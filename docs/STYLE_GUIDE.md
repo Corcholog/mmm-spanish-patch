@@ -44,7 +44,7 @@ _Filled in from the script. Name (JA) → Spanish spelling, who they are, how th
 | もとみ | Motomi | main character (956 lines) | _to describe_ |
 | 恭平 | Kyohei | "Big brother Kyohei" (938 lines), not the narrator: **Kyosuke (恭介) ≠ Kyohei (恭平)** | _to describe_ |
 | 亮 | Ryo | main character (888 lines) | _to describe_ |
-| リース | Lease | a Repliss like Reu (360 lines), "Lease" in the English patch | _to describe_ |
+| リース | Lease | a Repliss like Reu (360 lines), "Lease" in the English patch | Introduced in O2 as the second "β type" Reu brought by Kyohei; Kyosuke names her **Lease** at O2:4624. Speaker label: **"Beta"** (the font has no β) for the `β` lines; the early `レゥ` lines (O2:4086-4144) stay "Reu" with a NOTE; "Lease" from 4622. Speaks formal android Spanish with usted **to everyone, including the other Reu** (user, 2026-11-01); calls Kyosuke "Kyosuke-sama" (恭介様) and Kyohei "Amo" (マスター) (user decisions 2026-10-27) |
 | きょうすけ | Kyosuke | the narrator again, written in hiragana (21 lines) | |
 | ？？ | ??? | unknown speaker (161 lines) | keep as `???` |
 
@@ -232,6 +232,64 @@ _Places, recurring terms, menu vocabulary. Keep it consistent across the whole g
 | 喧嘩両成敗 | Pelea de dos, castigo para los dos | |
 | 美白機能 | función de piel luminosa | |
 | 荷物持とうか | ¿te ayudo con las bolsas? | |
+| アニキ (Kyohei) | mi hermano (narration) / ¡Hermano! (vocative) / hermano Kyohei (Hitoe's 恭平兄さん) | user decision 2026-10-27; context must tell Reu's "hermano" (Kyosuke) from it |
+| えらーだえらーだ | Error, error. | developer placeholder, O2 (0404, 2583, 4657, 4710) |
+| Ｐｍｆｈ－０００００とんで１/２ | Pmfh-00001 / Pmfh-00002 | android serials, with a NOTE |
+| Misao's cold scene (O2 3360-3410) | tú, cold and sarcastic | not usted |
+| Kazu-chan (Hitoe, O2 1342-1352) | keep "Kazu-chan" + NOTE (possible actor reference) | |
+| 江口 / 江成 / 望月 (O2 1325-1360) | Eguchi / Enari / Mochizuki | Kyosuke's improvised surnames starting with E; plain romanization keeps the joke |
+| ♪ in the birthday song (O2 4702-4707) | ~ (unless PCSX2 shows ♪ renders) | childlike lyrics |
+| ストロー | pajita | RAE standard; not popote (Mexican), pitillo, sorbete |
+| 応援団 | club de animación | |
+| おばちゃん / 相撲部 / 群集 (labels) | Señora / Club de sumo / Multitud | |
+| ごふっ / ごっくごっく | Gof. / Glup, glup… | |
+| Hitoe's へへへ/えへへ | Jejeje / Jeje | |
+| 5円 / 1円 | 5 yenes / 1 yen | |
+| 修羅場 | campo de batalla | echoes 戦火/戦場 |
+| mouth full (speech) | garble with "ahua" | |
+| あう (Misao/Kyosuke whimper) | Uuu. | not "Au." (pain/dog) |
+| 心変わり / 心移り | cambiar de sentimientos / fijarse en | |
+| 魔力 / まほう (Reu repeats) | poder mágico / magia | |
+| はい！ (magician's reveal) | ¡Tachán! | |
+| エスパー仮面 | Enmascarado Telépata | |
+| 墨汁 | tinta china | |
+| フタマタ | andar con dos a la vez | |
+| 正座 | sentada sobre los talones | |
+| 尻に敷かれる | dejarse mandar | |
+| グッモーニン、ミス | Buenos días, miss Tae-san | |
+| すき (Reu defines it) | Querer a alguien es "querer estar juntos" | like/love ambiguity kept |
+| 二日酔い | resaca | Tae's "entrañable vecina" gag (愛すべき隣人) |
+| お粥 | gachas de arroz | |
+| オートミール | oatmeal | kept: Reu asks what it is |
+| むかい酒 | el pelo del perro (que te mordió) | |
+| 満点 | Puntaje perfecto | |
+| もしもし | ¿Hola? | not ¿Aló?/¿Bueno? (regional) |
+| 目やに | lagañas | |
+| 型 (karate) | kata | |
+| 図書委員会 / 中学 / 洗面所 | comité de biblioteca / secundaria / baño | |
+| おっけー | Ok | avoid "Va" (regional) |
+| 勘 | instinto | |
+| 本場の味 | el sabor auténtico | |
+| パルミジャーノ | Parmigiano | |
+| クレーンゲーム / ぬいぐるみ / 人形 | máquina de grúa / peluche / muñeco | |
+| 財布 / 携帯電話 | billetera / celular | |
+| 非通知 | número oculto | |
+| ミシミシ | Cric, cric | |
+| もこもこ | mullido | alternatives esponjoso / suavecito |
+| Tae's drunk slur (せいじゃ) | "talonesh" only at O2:1787/1792 | the Japanese slurs only there; the earlier "sh" lines were removed |
+| 遠慮しないの (an offer) | no te hagas del rogar | |
+| 従兄妹 (Reu's cousin lie) | primo (the TV Chinese-lesson gag) / **prima** for Reu herself | clarified 2026-11-01 (O2:4026) |
+| long silences (Misao/Tae, O2 1947-1958) | ~40 dots | 8 became 18, 16 became 36 earlier |
+| 差し出がましい | Perdona que me meta | |
+| 浮かない顔 | cara de funeral | |
+| 後悔 quotes (O2 2145) | 'no debí hacer eso entonces' / 'debí hacer esto otro' | keep identical if it returns at O2:2590 |
+| 布団 | futon | not "cobijas" |
+| わたし (Reu) | yo (first person) | as in O0; Reu's third-person "Reu" only where the Japanese has レゥ |
+| ぐう (stomach) | Grrr. | |
+| カバン | mochila | not bolsa/bolso |
+| 熱血小僧 | chico de sangre caliente | |
+| 『』 around a single term | '...' (single quotes) | a full 『』 sentence stays in "..." |
+| ellipses … / …… | "..." (3 dots); a run of 3+ gets 3 dots per character | in force since O0; checked in O2 2701-3000 |
 | パシリ | mandadero/a | user approval 2026-10-25 |
 | ヤレヤレ (narration) | Ay, ay, ay. | user approval 2026-10-25 |
 | 女子棟 / 男子棟 | el edificio de las chicas / de los chicos | as in O0 |
@@ -242,3 +300,40 @@ _Places, recurring terms, menu vocabulary. Keep it consistent across the whole g
 | プリクラ | cabina de fotos | user decision 2026-10-25 |
 | 降りる / 勝負する (Indian poker) | Retirarme / Jugármela (menu); "me retiro" | |
 | card names (drawn by the game) | "10 de corazones", "jota/reina/rey/as de picas"; suits tréboles, corazones, picas, diamantes | the line before is lowercase-safe: "la carta de Reu es" |
+| 奥歯にものが挟まった | hablar con rodeos | never the literal "algo atorado entre los dientes" (2026-11-01) |
+| 気味が悪い | me da escalofríos | not "mala espina" |
+| まったく… (a sigh) | Increíble... | not "No puede ser" |
+| 気合いが入っている (Tae dressed up) | muy animada | as in O2_009 |
+| 時間がつぶせる | matar el tiempo | |
+| 言ったもん勝ち | gana el que se queda con la última palabra | |
+| わかんない (Reu, asked for an answer) | No sé... | |
+| 大事な家族 | un miembro importante de mi familia | |
+| ご苦労様 / お疲れさま (sarcastic) | Cuánto lo siento / Mis condolencias | non-ironic ご苦労様 = "Buen trabajo" |
+| 十倍にして返す | devolver multiplicado por diez | |
+| 純情少年 | chico inocente | |
+| どうしようもない (of a face) | caso perdido | |
+| 『何かいいことない？』 (Kyohei's mail) | ¿No pasa nada bueno? | O0 has 面白いこと = "¿No pasa nada interesante?"; different wording is fine (user, 2026-11-01) |
+| 気にするな / 気になってる | No le des importancia / a mí me importa | the 矛盾 joke in the next line depends on it |
+| オヤジ | mi viejo / el viejo | never "papá" |
+| おにいちゃんのおにいちゃん (O2:4118) | el hermano del hermano | NOT "el hermano de mi hermano" (that would be Kyosuke) |
+| 趣味 (of clothes) | gusto | |
+| 『火の無い所に煙は立たず』 | no hay humo sin fuego | |
+| 杵築たえさん (first full name) | Tae Kizuki... keep -san: "Kizuki-san" / Tae tells Kyohei "puede llamarme simplemente Tae" | Tae uses usted with Kyohei |
+| 持病 | enfermedad crónica | |
+| 了解 / わかった (giving in) | Entendido / Está bien | |
+| 頼むよ / 頼むな (Kyohei asking Reu; 命令 = "órdenes") | Te lo pido | |
+| 気取る | darse aires | |
+| 秘蔵のお酒 | mi reserva personal | |
+| はい、あ～ん (feeding) | Aquí tiene, diga 'aaah' | |
+| 酒 / お酒 (Tae's gift from Kyohei) | whisky | also in dialogue, never "licor" (user, 2026-11-01) |
+| 試作型レプリス / 甲種人型生命体 | Repliss prototipo / forma de vida humanoide de Clase A | |
+| コードネーム | nombre en clave | |
+| 新品交換 | cambio por una unidad nueva | |
+| モニターテスト | prueba de monitoreo | |
+| 回収 | recuperar | pending the user's call (O2:4557, 4565) |
+| βタイプ | tipo Beta | speaker label stays "Beta" |
+| 賃貸契約 | contrato de arrendamiento | not "alquiler" |
+| 返却口 | ventanilla de devolución | |
+| 一方的に | de forma unilateral | |
+| おたんじょうかい | fiesta de cumpleaños | "cumple" only in the song |
+| ―― (long dash) | `--` with nothing added beside it | no "..." or extra comma |

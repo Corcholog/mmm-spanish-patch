@@ -19,6 +19,15 @@ __pycache__/
 *.pyc
 .venv/
 
+# Locally installed agent skills (Archify, etc.) + installer lockfile
+.agents/
+skills-lock.json
+.archify/
+
+# Local secrets (API keys)
+.env
+.env.*
+
 # OS / editor junk
 Thumbs.db
 desktop.ini

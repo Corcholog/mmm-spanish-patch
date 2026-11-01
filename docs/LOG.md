@@ -4,6 +4,97 @@ Dated record of decisions (with reasons) and what each session did. Newest first
 
 ---
 
+## 2026-11-01 — O2 batch 4503-X003: sixth DeepSeek V4 Pro batch; O2 is 100% (applied, not committed)
+
+204 entries drafted (7 API calls, 184K in / 88K out; 7 pre-filled copies, all fine). Review: **26 of 204 rows changed (12.7%)**: 22 substantive (10.8%) + 4 format-only. Categories: naturalness 13, fidelity 5, addition 3, omission 1, format 4. Pro, six batches: 14.3%/6.6%, 9.9%/4.8%, 8.8%/8.4%, 12.5%/11.1%, 11.1%/7.1%, 12.7%/10.8% (Flash: 18%; 31%/24%). Errors concentrate in Kyohei's long technical speeches (4536-4605); narration and the birthday scene needed little. Reviewer ~160K tokens.
+- Real meaning errors: 4605 (〜のに as "Aunque", inverted), 4549 and 4555 (lost "devices" / who causes the trouble). New patterns -> pitfall 16: concessives, the long dash ―― mishandled, constructions that do not exist in Spanish, transliterated interjections ("¿Ah?" for は？), ambiguous words (コードネーム, 意味って), lost embedded subject, Peninsular "¿Y eso?" again.
+- **O2 summary (6 Pro batches, 3003-X003):** 1,645 entries drafted by DeepSeek V4 Pro, 188 rows changed (11.4%), 132 of them substantive (8.0%); about 150-180K Claude tokens per review. The Claude translator is no longer used for O2.
+- Judgement calls for the user (left as drafted): 4604 帰国 read as the end of Kyohei's stay ("antes de que me vaya"); 4686 literal; 4699 "¡Ya te dije!" for だ～か～ら; 回収 = "recuperar"; 4651 "Lease-san" (Reu's honorific for her).
+
+## 2026-11-01 — O2 batch 4203-4502: fifth DeepSeek V4 Pro batch (applied, not committed)
+
+297 entries drafted (6 API calls, 162K in / 89K out, 0 errors on the first check). Review: **33 of 297 rows changed (11.1%)**: 21 substantive (7.1%) + 12 format-only (4.0%, ellipses and punctuation). Categories: naturalness 7, fidelity 5, glossary 5, addition 2, omission 1, register 1, format 12. Pro so far: 14.3%/6.6%, 9.9%/4.8%, 8.8%/8.4%, 12.5%/11.1%, 11.1%/7.1% (Flash: 18%; 31%/24%). Easier scene (little double-voice, plain gags). Only one real meaning error: 4211 (間柄 = their relationship, not "que le escriba"). Reviewer ~150K tokens.
+- New patterns -> pitfall 15: ellipses ADDED where the Japanese has none (10 rows), 24 dots for 4 characters again (4288), one Japanese word with two renderings inside a batch (持病, 秘蔵, 頼む, 了解), はい when handing something over rendered "Sí", から clause with no main clause, ¿¿...?? instead of ¡¿...?!, usted between the two Reu.
+- User decisions (2026-11-01): 酒 in 4356-4376 = "whisky" everywhere (was "licor" in the dialogue); Beta uses usted with everyone, including the other Reu (4239 now "no se preocupe"); Hitoe and Kyohei use tú both ways (the Japanese is casual on both sides).
+
+## 2026-11-01 — O2 batch 3903-4202: fourth DeepSeek V4 Pro batch (applied, not committed)
+
+296 entries drafted (5 API calls, 136K in / 77K out, 0 errors on the first check). Review: **37 of 296 rows changed (12.5%)**: 33 substantive (11.1%) + 4 format-only (dropped leading "..."). Categories: fidelity 12, naturalness 8, glossary 6, omission 3, register 3, addition 1, format 4. Pro so far: 14.3%/6.6%, 9.9%/4.8%, 8.8%/8.4%, 12.5%/11.1% (Flash: 18%; 31%/24%). Harder scene: 300 short Q&A pages, the Reu/Lease double voice, tenses alternating within a page. Reviewer ~182K tokens (the most so far).
+- Meaning errors fixed: 4118 ("el hermano del hermano"; the scouting note was wrong), 4200 (Tae uses usted with Kyohei, invented "no hace falta que me llames Kizuki" removed), 4190 (Reu says "hermano"), 4026 (Reu is "prima"), 3949/3952 ("dijo", question restored), tense slips 4108/4189/4061, 3903/3906 "mi viejo".
+- New patterns -> pitfall 14: ellipsis runs still unreliable (4 characters came out as 30 dots and as 3), dropped leading "...", オヤジ = "papá", register toward third parties (Tae/Kyohei, Lease), kinship vocabulary, first full name without -san, dropped/added とりあえず/わざわざ/って言うじゃない, added "muy"/"definitivamente", the translator tagging its own notes "NOTE: rev:".
+- Decisions taken by default (shout if you disagree): 3940 "la gran Hitoe Haruna" (as in O1:6046-6048); Reu = "prima"; Lease's lines before 4233 keep the label "Reu" with notes (extends the 4086-4144 range to 3984-4034, 4086-4144, 4163-4182; 4191/4193 stay `???`); 3986 "Sí, bienvenido, señor." (the "señor" stands in for お帰りなさいませ).
+
+## 2026-11-01 — O2 batch 3603-3902: third DeepSeek V4 Pro batch (applied, not committed)
+
+296 entries drafted (11 API calls, 277K in / 126K out; one length error left after 6 rounds: 3818-3820, fixed by the reviewer). Review: **26 of 296 rows changed (8.8%)**: 25 substantive (8.4%; 22 = 7.4% without the 3 length-fix rows, of which about 7 were real meaning errors), 1 format-only. Categories: fidelity 11, naturalness 7, budget 3, omission 1, addition 1, register 1, glossary 1, format 1. Pro so far: 14.3%/6.6%, 9.9%/4.8%, 8.8%/8.4% (Flash: 18%; 31%/24%). Scene moderately hard (wordplay 気にするな/気になる -> 矛盾, loan joke, abstract self-analysis). Reviewer ~153K tokens.
+- Real meaning errors fixed: 3644 ("Cuando termines de comer", Ryo is still eating), 3747 (the contradiction that the 矛盾 joke needs), 3616 (確か), 3659 (あのね), 3718 (発端 = "punto de partida"), 3898 (missing causal link to 3894).
+- New patterns -> pitfall 13 in the prompt: 〜たら tense/aspect, attitude particles read as content, wordplay split over neighbouring lines, formal register in teenage speech ("mortificar"), set-phrase calques ("Como era de esperarse"), added connectors.
+- User decision: the e-mail catchphrase in 3899 ("¿No pasa nada bueno?") may differ from O0's ("¿No pasa nada interesante?"). **Commit policy:** the user wants a single commit when O2 is finished (not per batch).
+
+## 2026-11-01 — O2 batch 3303-3602: second DeepSeek V4 Pro batch
+
+293 entries drafted (5 API calls, 132K in / 74K out), 0 errors on the first check; reviewed and applied (294 rows with one pre-filled copy fixed at 3310). Review: **29 of 293 rows changed (9.9%)**: 14 substantive (4.8%) + 15 stylistic (5.1%); no missing labels or format errors. Categories (30 rows): naturalness 13, fidelity 9, omission 5, addition 1, glossary 1, typo 1. Pro so far: 14.3% / 6.6% substantive, then 9.9% / 4.8%; Flash: 18%, 31% / 24%. The scene was easier in format (no codes, no wordplay) but harder in tone (icy confrontation with Misao, a monologue with a simile); the Misao scene needed only four small fixes, so the gain looks mostly due to the model. Reviewer used ~134K tokens.
+- New patterns: dropped hedges (ような similes, と思う, ほとんど, だって), cut-off sentences filled with plausible empty text, added superlatives ("más preciada"), sentence-final か musing turned into "¿no?", a greeting reply ああ as "Ah...", verb drift comer/tomar, a Peninsular "y eso" -> pitfall 12 in the prompt.
+- For the human review: 3462/3464 and 3488 (sarcastic ご苦労様 "Cuánto lo siento", お疲れさま "Mis condolencias"); 3565 Tae's セリフ……間違えてない? = "Esa frase... ¿no te equivocaste?" (hints at a role swap); 3374 continues 3373 in lowercase.
+
+## 2026-11-01 — O2 batch 3003-3302: first batch drafted by DeepSeek V4 Pro
+
+259 entries translated + reviewed (41 pre-filled copies, all checked in context, none needed fixing). Review: **37 of 259 rows changed (14.3%)**: 17 substantive (6.6%), 15 missing speaker labels/quotes (5.8%), 5 format-only (1.9%). By category: omission 15, naturalness 7, fidelity 5, addition 5, glossary 2, typo 2, register 1. Compared with V4.1 Flash (18% and 31%/24% substantive), Pro's substantive rate is about a quarter to a third of Flash's. Caveat: the scene is simple dialogue without wordplay or codes; a harder batch may look worse. API use: 7 calls, 179K tokens in, 71K out; the Claude reviewer used ~153K tokens.
+- New pattern: **format drift at the end of the batch** (the last 19 rows lost every `Name: "` label and quote; the check cannot see it) -> pitfall 11 added to the llm_batch prompt. Other: idioms rendered literally (奥歯にものが挟まった, まったく, 気味が悪い), one invented detail ("hasta mañana"), quote marks around inner-thought narration. Not seen: wrong subject/negation/number, vosotros, regionalisms, forbidden characters.
+- Glossary additions: see STYLE_GUIDE (3 rows). For the human review: 3245 "desde las sombras" (alt. "desde ultratumba"); 3171 "tu hermano Kyohei" vs 3178 "hermano Kyohei"; 3052/3069 `『』` in narration kept as single quotes (O2_011 single, O2_014 double: unify later).
+
+## 2026-11-01 — O2 batch 2701-3000: second DeepSeek draft; the experiment's verdict so far
+
+294 entries translated + reviewed. Review: **90 of 294 lines changed (31%)**: 70 substantive (24%: naturalness 27, fidelity 25, typo 10, glossary 6, omission 1, addition 1) + 20 ellipsis normalisations. The first batch needed 18%; this range (inner monologue, quoted memories) is harder, and **my own prompt rule 6 was wrong** (it asked for 6 dots per two-character ellipsis; the project uses "..."): fixed. The "known pitfalls" fixed several surface errors (decided terms, "Diciendo eso", だから/さて) but new patterns appeared: -chan dropped, repeated passages translated differently, nested double quotes, tense flips, wrong subject in echoes, regionalisms. The prompt now has 10 points. Tokens: 131,084 in / 35,195 out. Reviewer workload was ~1.5-2x a Claude draft, so the net Claude-usage saving is modest. To align: O2_011.txt line 754 (Tae's lecture drops 可能な限り). Story notes added to STORY.
+
+## 2026-11-01 — O2 batch 2401-2700: first batch drafted by DeepSeek V4.1 Flash (llm_batch.py)
+
+Key finding of the first run: the Go subscription needs its own endpoint (`https://opencode.ai/inference/go/...`); the plain `/inference/...` bills the balance and returned HTTP 402. With the Go endpoint the whole batch (295 entries, 5 calls, 127,203 tokens in / 32,235 out) passed `batch.py check` with 0 errors in the first round. Claude review: **54 of 295 lines changed (18%)**: fidelity 20, naturalness 16, glossary 7, typo 5, omission 3, addition 2, register 1 — about 1.5-2x the usual Claude-translator draft. Typical flash-model errors: decided glossary terms not applied (Reu's えへへ "Jijiji", おかえり "bienvenido", がんばって "¡ánimo!", repeated quotes), English calques ("Diciendo eso, X hizo..."), flattened particles (だから, だそうです, さて), tense/subject slips, invented hedges; ellipsis counts (3 dots per ellipsis character). 295 entries translated + reviewed. Story: Reu's bento at the gate, Speed and Concentration with Misao, Motomi in the corridor. Prompt improvements added to llm_batch.py (a "known pitfalls" section).
+
+## 2026-11-01 — Cheaper translator step: tools/llm_batch.py (OpenCode API); small fixes
+
+The agents consume a lot of the user's Claude usage, so `tools/llm_batch.py` can do the translator step with a model from the user's OpenCode Go subscription (API docs https://opencode.ai/v2/docs/console/api/inference: base `https://opencode.ai/inference`, chat models at `/openai/v1/chat/completions`, ids from `GET /inference/v1/models`; the docs do not list a DeepSeek id, so the first step is `llm_batch.py models`). It sends the Japanese batch text to a third party (the user's call). The key is read from the environment variable `OPENCODE_GO_API_KEY` or a git-ignored `.env`; export_public.py refuses any `.env*` file. Tested offline with a fake model (chunking, parsing, an injected forbidden character, an injected omission: both recovered). Also: (1) `batch.py check` now shows orphan-line warnings; (2) a draft line with a forbidden character used to crash the screen simulation instead of being reported: such a line is now blanked for the simulation and reported by the entry check; (3) TRANSLATION_WORKFLOW and the translator agent no longer list `+` as forbidden or Í/Ü as allowed (stale since 2026-10-25). Review (Claude) and apply are unchanged: the reviewer still checks every line and `apply` re-checks.
+
+## 2026-11-01 — O2 batch 2101-2400 (Tae at the rainy entrance, Motomi's return, Reu at the gate)
+
+293 entries translated + reviewed (review resumed after a usage-limit stop). Review: 34 rows (fidelity ~12, omission ~5, naturalness ~10, typo ~7, glossary 1 "futon" for cobijas, register 1, addition 1); three over-long pages fixed. Menu 2122/2123 verified (label 1: 2124-2153, label 2: 2154-2161, shared from 2162). Reu's わたし lines (2338, 2352) are first person ("hice algo"), as in O0, not third person. Session paused here because the user hit the weekly usage limit; next: O2 from 2401.
+
+## 2026-10-27 — O2 batch 1801-2100 (Tae on his lap, Misao asleep, the rainy entrance)
+
+295 entries translated + reviewed. Review: 17 rows + 1 note fix (fidelity 11, naturalness 6, typo 1, addition 1). Both menus verified in the bytecode flow (1846-1847: option 1 jumps to 1902; option 2 shows 1866-1901; 1941-1942 both join at 1968). Fixes: 2070 "fui... me topé" (he went alone), 1917 "no te hagas del rogar", 2088 "Es verdad...".
+
+## 2026-10-27 — O2 batch 1501-1800 (shopping, arcade, Tae drunk at 2 AM)
+
+296 entries translated + reviewed. Review: 14 rows (fidelity 4, naturalness 4, addition 4 = the invented "sh" slur removed from 1755/1760/1764/1772, pre-filled 1661 "No es para tanto."). Tae's slur is kept only at 1787/1792 ("talonesh"), where the Japanese has it (せいじゃ). 1721 turned to preterite (this morning's meeting). Glossary added: sabor auténtico, Parmigiano, máquina de grúa/peluche/muñeco, billetera, celular, número oculto, Cric cric, mullido.
+
+## 2026-10-27 — O2 batch 1201-1500 (the improvised-surname menu, the date at the park)
+
+295 entries + 3 menu rows translated + reviewed. The three executable strings are a real 3-option menu after O2:1326 (verified in the bytecode): X001 Eguchi, X002 Enari, X003 Mochizuki (bare names). Review: 16 rows (fidelity 6, naturalness 8, register 2: "Va" avoided). 1220 reversed in the English reference (Misao was the one taught the pasta). Glossary added: lagañas, kata, comité de biblioteca, secundaria, baño, Ok, instinto. To check in PCSX2 when convenient: the surname menu.
+
+## 2026-10-27 — O2 batch 0901-1200 (Tae's hangover, call to Misao)
+
+293 entries translated + reviewed. Review: 5 rows (fidelity 2, omission 1, naturalness 3). No pre-filled copy needed fixing. Glossary added: resaca, gachas de arroz, oatmeal, el pelo del perro, entrañable vecina, Puntaje perfecto, ¿Hola?.
+
+## 2026-10-27 — O2 batch 0601-0900 (the day after: Reu's "querer", Ryo's cheer)
+
+297 entries translated + reviewed. Review: 9 rows (naturalness 5, fidelity 1, omission 1, addition 1). Source day-order inconsistency at 0662-0666 kept. Glossary added: tinta china, andar con dos a la vez, sentada sobre los talones, dejarse mandar, "Querer a alguien es..." definition. For the user: Kyosuke's own 0879/0882 "querer o no querer" could read as "want or not want" (alternative "que me quieras o no").
+
+## 2026-10-27 — O2 batch 0301-0600 (Ryo's breakup confession, Hitoe's unfinished sentence, coin tricks)
+
+299 entries translated + reviewed. Review: 28 rows (naturalness 15, fidelity 8, omission 1, register 1, typo 2, glossary 1). **0404 "Error, error."** is kept as decided: the next line has no break, so the row after "Error, error. " (14 columns) must stay within 46; the reviewer made 0405's first row short with an added adverb ("sorprendentemente", not in the Japanese). Open for the user: keep it, or use "Error." with the original 0405. Glossary added: Tachán, poder mágico, Enmascarado Telépata.
+
+## 2026-10-27 — O2 batch 0001-0300 (lunch at the tienda escolar, Ryo on Monday)
+
+298 entries translated + reviewed. Review: 20 rows (fidelity 6, naturalness 9, register 1, addition 1, omission 1, typo 1, glossary 2). "popote" replaced by "pajita"; 0234 no longer uses usted with Ryo; 0109/0111 garbled with a full mouth. Glossary added: pajita, club de animación, labels, sound effects, yenes, campo de batalla, "Uuu." for あう.
+
+## 2026-10-27 — O2 scouted; the user accepted all recommendations
+
+`docs/scouting/O2.md`. Decisions recorded in STYLE_GUIDE: Lease's label "Beta" (written in letters, the font has no β), early レゥ lines stay "Reu" with a NOTE, Lease from 4622; Lease addresses Kyosuke "Kyosuke-sama" and Kyohei "Amo" with usted; アニキ (Kyohei) = "mi hermano"/"¡Hermano!"/"hermano Kyohei"; えらーだえらーだ = "Error, error."; Misao's cold scene keeps tú; android serials "Pmfh-00001/2"; "Kazu-chan" kept with a NOTE; birthday song with "~" for ♪; surnames Eguchi/Enari/Mochizuki; pre-fill runs (about 296 lines). To check in PCSX2: whether the three surnames are menu options or displayed names, and whether ♪ renders.
+
+## 2026-10-26 — Public repository
+
+The user asked for the repo to be pushed (public) so their Claude chat can read the project. Because `translation/` holds the Japanese original next to the Spanish (hard rule: never published), the working repo is not pushed. `tools/export_public.py` builds a snapshot of the tracked files minus `translation/`, `work/`, `build/` (47 files, 0.46 MB; checks: no ISO/patch/archive extensions, no file over 1 MB, no file with more than 2,000 Japanese characters), commits it to a separate clone (`work/public_repo`) with the GitHub no-reply author, and pushes it. New `README.md` is the unified overview (how it works, pipeline, agents, decisions, status). The user created https://github.com/Corcholog/mmm-spanish-patch and pushed the first snapshot (cb35bdf) themselves, because creating a public repository was blocked by the permission system. Update with the same command whenever the user asks.
+
 ## 2026-10-26 — O1 COMPLETE (last batch 6318-X007: photo booth, dream of Kyohei, Monday)
 
 272 entries translated + reviewed; the 7 executable strings (X001-X007) were already filled by the pre-fill ("." x3, "Retirarme" x4) and checked. Review: 25 rows (fidelity 5, omission 5, addition 2, register 2, naturalness 8, glossary 1, typo 2). O1 is 6,598 of 6,598; total 12,537 of 33,135 (37.8%). Open for the user: the dream brother (???) and child Hitoe use tú with each other although the JA is polite (reviewer changed one usted slip at 6542). Next: build a full ISO to verify O1's memory budget (PLAN risk: O1 close to its RAM limit), then scout O2. **Memory check done (full build, 2026-10-26): O1 fully translated is 746,496 bytes, ends at 0x589A00, under the heap start 0x5D0000 (about 288 KB spare); O0 ends at 0x57B700. No heap change needed.**

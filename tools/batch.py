@@ -176,7 +176,14 @@ def validate(rows):
             continue
         if text:
             by_id[rid]['es'] = text
-            errors += [f'{rid}: {m}' for m in check.check_entry(by_id[rid])]
+            found = check.check_entry(by_id[rid])
+            errors += [f'{rid}: {m}' for m in found]
+            if found:                    # a line the tools can't encode must not reach the screen simulation
+                by_id[rid]['es'] = ''
+                continue
+            orphan = check.orphan(by_id[rid])
+            if orphan:
+                errors.append(f'warning {rid}: {orphan}')
         elif needs_translation(by_id[rid]):
             errors.append(f'{rid}: empty translation')
     msgs = check.screen_lint(script, entries, only=set(rows))

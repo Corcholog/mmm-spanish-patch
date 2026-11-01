@@ -27,7 +27,7 @@ Run `python -I -X utf8 tools/batch.py check <the .tsv>` and fix **every** error 
 
 ## Don't
 - Don't edit files in `translation/`, `tools/`, `docs/` or anything else: only the batch `.tsv`.
-- Don't type `& + < = > @ [ ] ^ _ \` { | } # $` or the codes from the `==` lines. `%` is allowed.
+- Don't type `& < = > @ [ ] ^ _ \` { | } # $`, a capital `Í` or `Ü` (write `I`, `U`), or the codes from the `==` lines. `%`, `+` and `×` are allowed.
 - Don't pad or wrap lines yourself.
 
 ## Final answer (short)
